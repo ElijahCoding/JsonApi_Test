@@ -25,7 +25,7 @@ class Speaker
 
     public function read_single()
     {
-        $query = "SELECT * FROM {$this->table} WHERE ID = ?";
+        $query = "SELECT * FROM {$this->table} WHERE ID = ? LIMIT 0,1";
 
         $statement = $this->conn->prepare($query);
 
