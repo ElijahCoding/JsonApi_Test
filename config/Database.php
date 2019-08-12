@@ -3,7 +3,7 @@
 class Database
 {
     private $host = '127.0.0.1';
-    private $db_name = 'fresh';
+    private $db_name = 'test_task';
     private $username = 'root';
     private $password = 'root';
     private $port = 8889;
