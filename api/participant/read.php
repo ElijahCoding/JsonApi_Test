@@ -37,6 +37,6 @@ if ($num > 0) {
     echo json_encode($data);
 } else {
     echo json_encode(
-        array('message' => 'No Speakers Found')
+        array('message' => 'No Participants Found')
     );
 }
